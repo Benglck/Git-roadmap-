@@ -1,7 +1,9 @@
 import subprocess
 import datetime
+import random 
 
 FILE_TO_COMMIT = "daily_work.txt"
+run : int = random.randint(1, 10)
 
 def daily_commit():
     # Get current timestamp
@@ -26,5 +28,10 @@ def daily_commit():
     except subprocess.CalledProcessError as e:
         print(f"An error occurred during git operations: {e}")
 
-if __name__ == "__main__":
+
+print(random)
+for random in range(1 ):
     daily_commit()
+    random - 1 
+    
+
