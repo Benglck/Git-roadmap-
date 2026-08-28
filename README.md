@@ -1,2 +1,17 @@
 # Git-roadmap-
-This is an simple python script wich commits an pushes a single file every day so it looks like you work every day 
+
+This repository contains a Python script that changes one letter in a `.md` file each day, then commits and pushes the change.
+
+## Usage
+
+Run from inside the repository:
+
+```bash
+python3 daily_md_push.py --file README.md
+```
+
+Optional dry run:
+
+```bash
+python3 daily_md_push.py --file README.md --dry-run
+```
